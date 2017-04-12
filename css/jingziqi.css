@@ -1,0 +1,47 @@
+body{ 
+    background-image:url("../image/b.jpg");
+	text-align:center;
+	margin:0; padding:0; 
+	font-size:20px}
+	.head{
+	font-weight:bold;
+	height:50px;
+	background-color:#ff99ff;
+	}
+	ul{ list-style:none; width:1000px;}
+    a{color:#333;text-decoration:none;}
+    .head ul li{
+    float:left;
+   }
+   .nav li a{ 
+    display:block; /*定义为块级元素*/
+    text-indent:10px;height:50px;line-height:50px; width:150px;  margin-bottom:1px;}
+    .on,.nav li a:hover{ background-color:#ff0066; color:#fff;height:50px;line-height:50px;}
+	.parentdiv{
+	width:300px;
+	height:300px;
+	margin:0 auto;
+	}
+	.parentdiv div{
+	width:30%;
+	height:30%;
+	float:left;
+	text-align:center;
+	background-color:#ff99ff;
+	opacity:0.7;
+    filter:alpha(opacity=70);
+	}
+	#d2,#d8{
+	border-left:1px solid black;
+	border-right:1px solid black;
+	}
+	#d4,#d6{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	}
+	#d5{
+	border:1px solid black;
+	}
+	div img{
+	display:none;
+	}
